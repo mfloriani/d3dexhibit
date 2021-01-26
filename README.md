@@ -33,7 +33,7 @@ The following exhibits are displayed (only a single exhibit is displayed at any 
 
 The normals for the Dragons are generated using Assimp.
 
-IMPORTANT: download the two Dragon models from the link above and move them into the Gallery/Assets folder.
+>IMPORTANT: download the two Dragon models from the link above and move them into the Gallery/Assets folder.
 
 ### Lighting
 
