@@ -1,59 +1,64 @@
-# 3D Exhibit
+# 3D Gallery
 
-The aim is to create a virtual gallery
+It is a virtual gallery developed using DirectX 11.  
+The scene is composed of a room, a plinth in the centre with an exhibit on it. 
+When inside the room the walls are opaque when outside the walls are transparent.  
 
-## Implementation
+### Tools
 
 - DirectX 11 SDK
-- DirectMath
-- AssImp (<http://www.assimp.org/>)
+- Visual Studio 2019
+- DirectXMath
+- Assimp (<http://www.assimp.org/>)
 
-### Room
+### Shading
 
-A box with the opaque walls when viewed from inside and transparent walls when viewed from outside.
+There are two shading techniques:
 
-### Plinth
+1. Gouraud shading
+2. Phong shading (Bump mapping on the walls)
 
-A raised section in the middle of the room upon which sits the exhibit.
+Press F4 to switch between them.
 
 ### Exhibit
 
-The exhibit is placed on the plinth in the center of the room.  
-The rendering technique for the exhibit is to be selected from the list of techniques below, in sequence.  
-Starting with Gouraud shading and proceeding down the list as follows:
-
-1. Gouraud shading
-2. Phong shading
-
-The following exhibits are displayed (only a single exhibit is displayed at any one time)
+There are three different objects to display (only a single exhibit is displayed at any one time):
 
 1. Sphere
 2. Dragon ( <http://graphics.stanford.edu/pub/3Dscanrep/dragon/dragon_recon.tar.gz> )
 3. Asian dragon ( <http://graphics.stanford.edu/data/3Dscanrep/xyzrgb/xyzrgb_dragon.ply.gz> )
 
-The normals for the Dragons are generated using Assimp.
+The normals for the Dragon models are generated using Assimp.
 
 >IMPORTANT: download the two Dragon models from the link above and move them into the Gallery/Assets folder.
 
+Press F3 to switch between them.
+
 ### Lighting
 
-The room have the following lighting options
+The room have the following lighting options:
 
 1. Ambient + single local light
 2. Ambient + single local light rotating around the top of the room
 3. Ambient + four spot lights (one in each of the top corners of the room)
 
+Press F5 to switch between them.
+
 ### Shadows
 
-The exhibit and plinth generate the shadow effects.
-Each object have a single shadow when illuminated by a single directional light, or four shadows when illuminated by the four spot lights.
+The exhibit and plinth generate shadow effects.  
+Each object has a single shadow when illuminated by a single directional light, or four shadows when illuminated by the four spotlights.
 
-1. Static shadow object on floor only
-2. Basic shadow mapping
+1. Static shadow object on floor only (directional light or spotlights)
+2. Basic shadow mapping (directional light only)
+
+Press F6 to switch between them.
 
 ### Dust
 
-Particles of dust are to fall from the above the exhibit
+GPU Particles of dust are to fall from the above the exhibit.
+
+Press F8 to toggle on/off the effect.
 
 ### Cameras
 
@@ -61,6 +66,8 @@ The following cameras are adjustable via keyboard controls
 
 - Camera1: Initially looking at the front of the room.
 - Camera2: Initially looking at the top of the room from overhead.
+
+Press F1 or F2 to switch between them.
 
 ### Controls
 
@@ -73,17 +80,12 @@ The following cameras are adjustable via keyboard controls
 - F7 switches between scene level rendering modes (advanced feature, optional)
 - F8 start/stop the dust falling
 - Cameras are controlled by the cursor keys:
-  - ‘left’/‘right’/’up’/’down’ rotate left/right/up/down, respectively
-  - CTRL + ‘left’/‘right’/’up’/’down’/’page up’/’page down’ panning to left/right/forward/backward/up/down, respectively
-  - Alternatively, w-a-s-d or i-j-k-l keys may be used instead of the “cursor” keys
-- 't'/'T' decrease/increase a factor that globally slows/speeds-up time-dependent effects
-- ‘r’ resets the scene
+  - LEFT, RIGHT, UP, DOWN rotate left/right/up/down, respectively
+  - CTRL + LEFT, RIGHT, UP, DOWN, PAGE UP, PAGE DOWN move to left/right/forward/backward/up/down, respectively
+  - Alternatively, W, A, S, D or I, J, K, L keys may be used instead of the “cursor” keys
+- T / SHIFT + T decrease/increase a factor that globally slows/speeds-up time-dependent effects
+- R resets the scene
 
 ### Configuration File
 
-Scene elements as well as lights and camera configurations are read from a configuration file.
-
-### Shading
-
-- Bump mapping of geometry
-
+Scene elements, lights, and camera are read from a configuration file.
