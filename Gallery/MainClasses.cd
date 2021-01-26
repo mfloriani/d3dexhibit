@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Camera">
+    <Position X="0.75" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAgAAACAAUAAAQBAQGQAAAQAAAQQAISAAAAIQQAo=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D3DApp">
+    <Position X="7.25" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>BFwggNEBAEAIqZIKAqqREDQIUEADAIKAHIBggCJeiEg=</HashCode>
+      <FileName>D3DApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="12" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAQAAIAAAgAAFAAAACAAAAAJAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshManager">
+    <Position X="20.25" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAgEQAAAAAAAAgAAAAAgIAAAAAAAAIAAA=</HashCode>
+      <FileName>MeshManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleSystem">
+    <Position X="1" Y="7.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAABAAIAgAAAAAIQBIgAAAAAAIIgEAgAAAVAAA=</HashCode>
+      <FileName>ParticleSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanarShadow">
+    <Position X="11.75" Y="11.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>BgGAAAAgAAAAAAAAABAABAAAIAAAAAAACACgAACQCAA=</HashCode>
+      <FileName>PlanarShadow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderStates">
+    <Position X="29.25" Y="9.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIEAAAQAAQEAgAAAAAAAAEIAAAIABAAAAAACAAI=</HashCode>
+      <FileName>RenderStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneLoader">
+    <Position X="36.25" Y="11" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAEAIBEAAAAAAABQAAkAwIAAABAAAAAAABCAAg=</HashCode>
+      <FileName>SceneLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderManager">
+    <Position X="0.75" Y="13" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAAAAAAAAAQAAEAAAAAAAAAASIChABABAQAAAAE=</HashCode>
+      <FileName>ShaderManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputLayouts">
+    <Position X="18.5" Y="9.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAAAAAAAAgSAAAAAAAAAAAAAIAAAgAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadowMap">
+    <Position X="11.75" Y="4.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>RAAAAAAgAABAAAhABAgAAAABIAEAAgKgCABuAQYQAAA=</HashCode>
+      <FileName>ShadowMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeometryGenerator">
+    <Position X="31" Y="15.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAgAAAQAAAAAAAAAAAAAAAAAAAAIAAAQQAAAAAAAA=</HashCode>
+      <FileName>GeometryGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CameraSettings">
+    <Position X="27" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DirectionalLight">
+    <Position X="20.5" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQAAAAAAAgAgAiAAAAAAAAAAAAAAAAAAAEAAAAg=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PointLight">
+    <Position X="24.25" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAACgAgAgAAAAAAAAAAAAAAAAAAIUAAAAA=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SpotLight">
+    <Position X="27.5" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAABACgAgAiAAAAAAAAAAAAAAAAgAAUAAAAA=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Material">
+    <Position X="16.5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Material.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MeshData">
+    <Position X="24" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>MeshManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Mesh">
+    <Position X="16.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAIBAAAAAAEAAAAAA=</HashCode>
+      <FileName>MeshManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Particle">
+    <Position X="20.5" Y="12.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAQAAAAAAAI=</HashCode>
+      <FileName>ParticleSystem.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CBuffer_CS">
+    <Position X="16.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParticleSystem.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CBuffer_GS">
+    <Position X="18" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAA=</HashCode>
+      <FileName>ParticleSystem.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MaterialData">
+    <Position X="23" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAABAAgA=</HashCode>
+      <FileName>SceneLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MeshObjectData">
+    <Position X="25" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAACAIAAGAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>SceneLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LightData">
+    <Position X="20.75" Y="15.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAIAAAAIAAAAAAAIAIAAAABAECBAAAAAABIAAA=</HashCode>
+      <FileName>SceneLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CameraData">
+    <Position X="18.75" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAIAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SceneLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Transform">
+    <Position X="16.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAIAQCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transform.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex">
+    <Position X="34" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAABAAAgAAIAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ParticleVertex">
+    <Position X="31" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="InputLayoutDesc">
+    <Position X="23" Y="9.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ShadowMapBuffer">
+    <Position X="16.75" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShadowMap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CBOnResize">
+    <Position X="28.25" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ConstantBuffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CBPerFrame">
+    <Position X="26" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAACIAAAAAA=</HashCode>
+      <FileName>ConstantBuffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CBSpotLights">
+    <Position X="32.75" Y="13.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConstantBuffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CBPerObject">
+    <Position X="30.75" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConstantBuffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="RenderMode">
+    <Position X="22" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D3DApp.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LightingMode">
+    <Position X="25.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAEAAAAAA=</HashCode>
+      <FileName>D3DApp.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ExhibitMode">
+    <Position X="23.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAABAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D3DApp.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShadowMode">
+    <Position X="27.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D3DApp.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
