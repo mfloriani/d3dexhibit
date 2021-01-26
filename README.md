@@ -77,7 +77,6 @@ Press F1 or F2 to switch between them.
 - F4 switches between exhibit render techniques
 - F5 switches between lighting options
 - F6 switches between shadow types
-- F7 switches between scene level rendering modes (advanced feature, optional)
 - F8 start/stop the dust falling
 - Cameras are controlled by the cursor keys:
   - LEFT, RIGHT, UP, DOWN rotate left/right/up/down, respectively
