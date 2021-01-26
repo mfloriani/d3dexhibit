@@ -2,8 +2,6 @@
 
 The aim is to create a virtual gallery
 
-Dragon Statuette (<http://graphics.stanford.edu/data/3Dscanrep/xyzrgb/dragon.jpg> )
-
 ## Implementation
 
 - DirectX 11 SDK
@@ -34,6 +32,8 @@ The following exhibits are displayed (only a single exhibit is displayed at any 
 3. Asian dragon ( <http://graphics.stanford.edu/data/3Dscanrep/xyzrgb/xyzrgb_dragon.ply.gz> )
 
 The normals for the Dragons are generated using Assimp.
+
+IMPORTANT: download the two Dragon models from the link above and move them into the Gallery/Assets folder.
 
 ### Lighting
 
