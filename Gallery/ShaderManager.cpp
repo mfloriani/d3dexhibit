@@ -8,7 +8,15 @@ HRESULT ShaderManager::createVertexShader(
 {
 	auto hr = 0;
 	std::string id(filename + "_" + entryPoint);
+#ifdef _DEBUG
 	std::string fileName{ "..\\x64\\Debug\\" + id + ".cso" };
+#else 
+	#ifdef NDEBUG
+		std::string fileName{ "..\\x64\\Release\\" + id + ".cso" };
+	#else
+		std::string fileName{ id + ".cso" };
+	#endif
+#endif
 	std::ifstream fin(fileName, std::ios::binary);
 	if (!fin) 
 	{
@@ -39,7 +47,15 @@ HRESULT ShaderManager::createGeometryShader(ID3D11Device* const device, const st
 {
 	auto hr = 0;
 	std::string id(filename + "_" + entryPoint);
+#ifdef _DEBUG
 	std::string fileName{ "..\\x64\\Debug\\" + id + ".cso" };
+#else 
+	#ifdef NDEBUG
+		std::string fileName{ "..\\x64\\Release\\" + id + ".cso" };
+	#else
+		std::string fileName{ id + ".cso" };
+	#endif
+#endif
 	std::ifstream fin(fileName, std::ios::binary);
 	if (!fin)
 	{
@@ -67,7 +83,15 @@ HRESULT ShaderManager::createPixelShader(ID3D11Device* const device, const std::
 {
 	auto hr = 0;
 	std::string id(filename + "_" + entryPoint);
-	const std::string fileName{ "..\\x64\\Debug\\" + id + ".cso" };
+#ifdef _DEBUG
+	std::string fileName{ "..\\x64\\Debug\\" + id + ".cso" };
+#else 
+	#ifdef NDEBUG
+		std::string fileName{ "..\\x64\\Release\\" + id + ".cso" };
+	#else
+		std::string fileName{ id + ".cso" };
+	#endif
+#endif
 	std::ifstream fin(fileName, std::ios::binary);
 	if (!fin) 
 	{
@@ -93,7 +117,15 @@ HRESULT ShaderManager::createComputeShader(ID3D11Device* const device, const std
 {
 	auto hr = 0;
 	std::string id(filename + "_" + entryPoint);
+#ifdef _DEBUG
 	std::string fileName{ "..\\x64\\Debug\\" + id + ".cso" };
+#else 
+	#ifdef NDEBUG
+		std::string fileName{ "..\\x64\\Release\\" + id + ".cso" };
+	#else
+		std::string fileName{ id + ".cso" };
+	#endif
+#endif
 	std::ifstream fin(fileName, std::ios::binary);
 	if (!fin)
 	{
