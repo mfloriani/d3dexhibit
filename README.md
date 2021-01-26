@@ -1,7 +1,7 @@
 # 3D Gallery
 
 It is a virtual gallery developed using DirectX 11.  
-The scene is composed of a room, a plinth in the centre with an exhibit on it. 
+The scene is composed of a room, a plinth in the centre with an exhibit on it.  
 When inside the room the walls are opaque when outside the walls are transparent.  
 
 ### Tools
